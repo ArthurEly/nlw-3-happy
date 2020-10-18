@@ -1,0 +1,60 @@
+<!--
+    HTML
+        HyperText
+            hipertexto -> texto que contém links, vídeos, imagens...
+        Markup
+            marcação -> marcação com <tags>
+        Language
+            linguagem (não é uma linguagem de programação, porque não tem uma lógica robusta)
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!--o 'lang' acima é um atributo da tag <html>-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <!--tags <meta> não são fechadas. são responsáveis por configurar a página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy</title>
+    <link rel="icon" href="/images/logo-icon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/page-landing.css" />   
+    <!--
+            <link rel="icon"> serve para botar o ícone na página
+            atributo 'rel' define o tipo de relacionamento
+            atributo 'href' responsável por achar algo em algum caminho (diretório)
+        -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="body">
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <!--cabeçalho-->
+          <img id="logo" class="animate-up" src="/images/logo.svg" alt="Logomarca da Happy!" />
+          <!--
+                atributo 'src' da tag <img> serve para achar a imagem em algum caminho
+                atributo 'alt' da tag <img> serve para mostrar ao navegador o que a imagem representa. Quando a imagem não carrega, o alt é posto no lugar, então escreva algo que tenha lógica
+                svg é uma imagem escrita em HTML, muito compatível com diversos tamanhos de tela
+            -->
+        </header>
+        <main>
+          <!--conteúdo principal da página-->
+          <h1 class="animate-up">
+            <!--serve para colocar títulos-->
+            Leve felicidade para o mundo           
+          </h1>
+          <section class="visit">
+            <p class="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+            <a href="/orphanages" class="animate-up" title="Visite orfanatos!">
+              <!--atributo 'title' serve para mostrar um texto quando descansarmos o mouse em cima de qualquer tag-->
+              <img src="/images/arrow.svg" alt="Ir para o mapa" />
+            </a>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

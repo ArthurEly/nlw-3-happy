@@ -1,0 +1,33 @@
+/*
+    CSS
+    Folhas de estilo em cascata -> (a última é a que sempre vale)
+    É a estilização do HTML  
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* selecionando o body */
+body { 
+    /* declaração */
+    /* propriedade: valor; */
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+    font-size: 1.8rem;
+    /*em pega o px do pai*/
+    /*rem pega o px do html*/
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    /*ou*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
