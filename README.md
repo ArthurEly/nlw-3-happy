@@ -7,7 +7,7 @@ Nessa aplicação, conheci:
     CSS
 
     Javascript
-
+        |
         -> Node.js
 
 Minhas modificações: 
