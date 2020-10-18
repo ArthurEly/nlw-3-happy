@@ -9,6 +9,8 @@ Nessa aplicação, conheci:
     Javascript
         |
          -> Node.js
+         
+     Handlebars
 
 Minhas modificações: 
   * Validação para ver se o usuário escolheu uma localização no mapa. 
