@@ -10,7 +10,7 @@ Nessa aplicação, conheci:
         |
          -> Node.js
          
-     Handlebars
+    Handlebars
 
 Minhas modificações: 
   * Validação para ver se o usuário escolheu uma localização no mapa. 
