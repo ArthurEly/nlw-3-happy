@@ -8,7 +8,7 @@ Nessa aplicação, conheci:
 
     Javascript
         |
-        -> Node.js
+         -> Node.js
 
 Minhas modificações: 
   * Validação para ver se o usuário escolheu uma localização no mapa. 
