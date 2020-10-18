@@ -2,13 +2,13 @@
 Aplicação Happy, desenvolvida na Next Level Week #3
 Nessa aplicação, conheci:
 
--> HTML
+    HTML
 
--> CSS
+    CSS
 
--> Javascript
+    Javascript
 
-    -> Node.js
+        -> Node.js
 
 Minhas modificações: 
   * Validação para ver se o usuário escolheu uma localização no mapa. 
